@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="freonstyle.css">
+    <script src="https://kit.fontawesome.com/33742186a5.js" crossorigin="anonymous"></script>
+
+</head>
+<body id="background">
+
+
+
+
+
+    <nav>
+        <h1>FREON PROTOCOL</h1>
+
+        
+        <img src="https://imgs.search.brave.com/3mPsM7PFP_YjDutLQTwxGQdnD4L_Uz66TB34aKpDNck/rs:fit:160:160:1/g:ce/aHR0cHM6Ly9ob3Rl/bW9qaS5jb20vaW1h/Z2VzL2Vtb2ppLzUv/MTc0ZnVxcDE3eDlk/bTUucG5n" alt="FREON Logo" width="50px">
+
+        <input type="button" value="Black light">
+
+    </nav>
+
+
+
+
+    <main>
+
+
+
+<!-- 
+
+d8888b. d8888b.  .d88b.  d8888b. db    db  .o88b. d88888b d8888b. .d8888. 
+88  `8D 88  `8D .8P  Y8. 88  `8D 88    88 d8P  Y8 88'     88  `8D 88'  YP 
+88oodD' 88oobY' 88    88 88   88 88    88 8P      88ooooo 88oobY' `8bo.   
+88~~~   88`8b   88    88 88   88 88    88 8b      88~~~~~ 88`8b     `Y8b. 
+88      88 `88. `8b  d8' 88  .8D 88b  d88 Y8b  d8 88.     88 `88. db   8D 
+88      88   YD  `Y88P'  Y8888D' ~Y8888P'  `Y88P' Y88888P 88   YD `8888Y' 
+                                                                                                                                               
+ -->
+
+
+
+<div id="producer">
+
+    <h1>Content Producer</h1>
+
+<div class="producer profile">
+
+    <img src="https://pbs.twimg.com/profile_images/1479260227149176833/pO5uOqa6_400x400.jpg" alt="pfp" id="producerpfp">
+    <h3 id="producerid">Producer ID:</h3>
+    <h3 id="producerusername">Username:</h3>
+    <h3 id="producername">Name:</h3>
+    <h3 id="producerDOB">Date of Birth:</h3>
+    <h3 id="producerbank">banking Info: xxx-xxx-xxx</h3>
+
+
+</div>
+
+
+
+    <input type="file" id="imageLoader" name="imageLoader" />
+
+    <canvas id="producerdisplay"></canvas>
+    <canvas id="textCanvas"></canvas>
+
+
+</div>
+
+<!-- 
+
+ .o88b.  .d88b.  d8b   db .d8888. db    db .88b  d88. d88888b d8888b. .d8888. 
+d8P  Y8 .8P  Y8. 888o  88 88'  YP 88    88 88'YbdP`88 88'     88  `8D 88'  YP 
+8P      88    88 88V8o 88 `8bo.   88    88 88  88  88 88ooooo 88oobY' `8bo.   
+8b      88    88 88 V8o88   `Y8b. 88    88 88  88  88 88~~~~~ 88`8b     `Y8b. 
+Y8b  d8 `8b  d8' 88  V888 db   8D 88b  d88 88  88  88 88.     88 `88. db   8D 
+ `Y88P'  `Y88P'  VP   V8P `8888Y' ~Y8888P' YP  YP  YP Y88888P 88   YD `8888Y' 
+                                                                              
+                                                                                                                                                                                                                           
+                                                                                                                                                
+-->
+
+
+<div id="consumer">
+
+    <h1>Content Consumers</h1>
+
+
+    <div class="consumer profile">
+
+        <img src="https://pbs.twimg.com/profile_images/1479260227149176833/pO5uOqa6_400x400.jpg" alt="pfp" id="consumerpfp">
+        <h3 id="consumerid">Consumer ID:</h3>
+        <h3 id="consumerusername">Username:</h3>
+        <h3 id="consumername">Name:</h3>
+        <h3 id="consumerDOB">Date of Birth:</h3>
+        <h3 id="consumerbank">Banking Info: xxx-xxx-xxx</h3>
+    
+    </div>
+
+
+
+        <!-- <i class="fa-solid fa-left"></i>
+        <i class="fa-solid fa-right"></i> -->
+
+        <button class="btnslide" id="left"> < </button>
+        <button class="btnslide" id="right"> > </button>
+
+
+        <canvas id="imageCanvas"></canvas>
+
+</div>
+
+
+<!-- 
+
+d88888b d8888b. d88888b  .d88b.  d8b   db      d8888b. d8888b.  .d88b.  d888888b  .d88b.   .o88b.  .d88b.  db      
+88'     88  `8D 88'     .8P  Y8. 888o  88      88  `8D 88  `8D .8P  Y8. `~~88~~' .8P  Y8. d8P  Y8 .8P  Y8. 88      
+88ooo   88oobY' 88ooooo 88    88 88V8o 88      88oodD' 88oobY' 88    88    88    88    88 8P      88    88 88      
+88~~~   88`8b   88~~~~~ 88    88 88 V8o88      88~~~   88`8b   88    88    88    88    88 8b      88    88 88      
+88      88 `88. 88.     `8b  d8' 88  V888      88      88 `88. `8b  d8'    88    `8b  d8' Y8b  d8 `8b  d8' 88booo. 
+YP      88   YD Y88888P  `Y88P'  VP   V8P      88      88   YD  `Y88P'     YP     `Y88P'   `Y88P'  `Y88P'  Y88888P 
+                                                                                                                   
+                                                                                                                                                          
+                                          
+ -->
+
+
+<div id="protocol">
+
+<h1>FREON Protocol</h1>
+
+<h3 id="freondescription" > Stegonography is the art of Messages in plain sight. FREON Protocol is able to "fingerprint" the ID's of Consumers of Exclusive Paid content to prevent and trace leaks. FREON is Anti-Piracy without Anti-Privacy. </h3> 
+
+
+
+<h1 id="decoded">Decoded FREON</h1>
+
+<h3>Insert File or Link</h3>
+
+<div id="decodeinputs">
+
+    <input type="file" id="imageLoader2" name="imageLoader2"/>
+    <input type="text" id="decodeinputurl">
+
+</div>
+
+<canvas id="imageCanvas2"></canvas>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+<script src="freon.js"></script>
+
+</body>
+</html>
