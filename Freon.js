@@ -1,3 +1,29 @@
+//Nav Bar Logic
+
+const menuIcon = document.getElementById("navIcon");
+const navlist = document.getElementsByTagName("span")[0]
+
+let navtoggle = true;
+
+menuIcon.addEventListener("click", function() {
+
+console.log("testing 5")
+
+
+navtoggle = !navtoggle;
+
+if (navtoggle == true){
+
+navlist.className = "";
+
+} else if ( navtoggle == false)
+{
+    navlist.className = "disapear";
+}
+
+});
+
+
 
 
 
@@ -10,7 +36,6 @@ let contentProducer = [ {
     Banking: "000-000-000",
 
 }, ];
-
 
 
 let contentconsumer = [
@@ -59,7 +84,16 @@ let contentconsumer = [
 },
 
 
-] 
+];
+
+
+
+
+
+
+
+
+
 
 
 
@@ -93,7 +127,6 @@ producerSlideLogic(contentProducerPicker);
 const leftProfileSlideBtn = document.getElementById("left");
 const rightProfileSlideBtn = document.getElementById("right");
 
-console.log(contentConsumerPicker)
 
 leftProfileSlideBtn.onclick = function(){
   
