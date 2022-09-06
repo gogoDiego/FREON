@@ -1,0 +1,365 @@
+
+/*
+
+FREON LEARN MORE PAGE CSS
+
+*/
+
+
+:root{
+
+    --brandsprimarycolor: rgb(0, 0, 0); 
+    --primaryfade: #f5cfff; ;
+    --secondarycolor: #1b0101;
+    --accentcolor:#f5f5f5;
+    --words:#ffffff; 
+    --backgroundcolor:background: linear-gradient(112.1deg, rgba(29, 23, 38, 0.95) 11.4%, rgba(65, 48, 87, 0.95) 70.2%) center center;
+    
+    --shadowacent:#fb0000;
+    --shadowcolors: 0 0 5px #fff, 0 0 5px #fff, 0 0 10px var(--shadowacent), 0 0 15px var(--shadowacent), 0 0 20px var(--shadowacent), 0 0 27px var(--shadowacent), 0 0 37pxvar(--shadowacent);
+    
+    
+    --boxshadowaccent:#8c00ff;
+    --boxshadowcolors:0 0 3px #fff, 0 0 5px #fff, 0 0 5px var(--boxshadowaccent), 0 0 7px var(--boxshadowaccent), 0 0 10px var(--boxshadowaccent), 0 0 15px var(--boxshadowaccent), 0 0 20px var(--boxshadowaccent);
+    
+
+}
+
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+
+    }
+
+.disapear{
+    display: none;
+    visibility: none;
+    }
+
+
+nav {
+
+    height: 10vh;
+    width: 100vw;
+    position: relative;
+    display: inline-block;
+    
+    background:transparent;
+
+    
+    color: #fff;
+    /* box-shadow:var(--boxshadowcolors); */
+    z-index: 3;
+    
+    /* background-color: black; */
+    }
+
+nav > h1 {
+
+position: relative;
+display: inline-block;
+
+height: 10vh;
+font-size: 3rem;
+line-height: 10vh;
+padding-left: 2.5vh;
+padding-right: 1vh;
+text-align: center;
+vertical-align: top;
+/* background:var(--brandsprimarycolor); */
+background-color: transparent;
+
+color: #fff;
+text-shadow: var(--shadowcolors) !important;
+
+
+}
+
+
+nav > img {
+
+display: inline-block;
+box-sizing: border-box;
+padding-left: 0vh;
+padding: 2.5vh 0px 0px 0px;
+/* background-color: var(--brandsprimarycolor); */
+background-color: transparent;
+
+
+}
+
+nav > ul {
+
+display: inline-flex;
+list-style: none;
+
+
+height: 10vh !important;
+float: right;
+padding-right: 2.5vw;
+background-color: transparent;
+}
+
+nav > ul > li {
+
+font-size: 2.5rem;
+position: relative;
+
+line-height: 10vh !important;
+text-align: center;
+margin: 0px 10px 0px 10px;
+
+color: #fff;
+text-shadow: var(--shadowcolors);
+background-color: transparent;
+
+
+}
+
+
+nav > ul > li > i {
+
+    background-color: transparent;
+}
+
+
+nav > span > ul  {
+
+list-style: none;
+width: 100vw;
+font: 1.5rem;
+height: 5vh;
+line-height: 5vh;
+position: absolute;
+background-color: transparent;
+
+
+
+}
+
+
+nav > span > ul > li  {
+
+height: 5vh;
+line-height: 5vh;
+width: 100vw;
+/* background-color: #9d00ffe2; */
+border-bottom: 3px rgb(76, 0, 101) solid;
+outline:3px rgb(76, 0, 101) solid;;
+padding-left: 20px;
+background: linear-gradient(to right, #2200FF 0%, #FF00F7 10%, #cfcfcf00 20%);
+
+
+}
+
+nav > span > ul > li > a > h3, nav > span > ul > li > h3{
+
+    /* background-color: #9d00ffe2; */
+    /* background-color: transparent; */
+    background: linear-gradient(to right, #2200FF 0%, #FF00F7 10%, #cfcfcf00 20%);
+
+}
+
+
+
+/* Nav stuff above */
+
+
+.page{
+
+width: 100vw;
+height:500vh;
+    
+
+}
+
+.backgroundpt1 {
+
+width: 100%;
+width: 100%;
+position: absolute;
+top: -150px;
+transform: rotate(180deg);
+background-size: contain;
+
+}
+
+#para1 {
+
+color: white;
+
+}
+
+
+#Piracyproblem{
+
+
+    font-family: Inter, sans-serif;
+    font-size: 8em;
+    font-weight: bold;
+    text-align: center;
+  
+    position: relative;
+    margin-top: 60vh;
+    outline: 3px red solid;
+     
+    background: linear-gradient(to right, #2200FF 0%, #ff00a6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+  }
+
+
+#fingerprintingpage {
+
+    position: relative;
+    width: 80vw;
+    min-height: 90vh;
+    left: 10vw;
+    color: white;
+    outline: 6px solid blue;
+
+}
+
+#fingerprintingpage > h2 {
+
+font-size: 6rem;
+
+background: linear-gradient(to left, #ee05ff 0%, #00fffb 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+position: relative;
+display: block;
+width: 100vw;
+margin-top: 30vh;
+right: 25%;
+text-align: center;
+
+}
+
+
+
+
+#fingerprintingpage > span  {
+
+position: relative;
+display: inline-flex;
+
+
+}
+
+#fingerprintingpage > span > img{
+
+    width: 500px;
+    height: 800px;
+    object-fit: cover;
+    position: relative;
+    
+}
+
+
+#fpd2 {
+
+position: relative;
+
+
+}
+
+#fpd2 > td > h3 {
+
+font-size: 1.5rem;
+font-weight: lighter;
+text-align: left;
+min-height: 100px;
+width: 35vw;
+padding-left: 20px;
+text-indent: 40px;
+
+
+}
+
+#fpd2 > td > h2 {
+
+    font-size: 3rem;
+    padding: 20px;
+
+}
+
+
+
+.fpd {
+
+position: relative;
+display: flex;
+outline: 3px green solid;
+padding: 25px;
+
+width: 40vw;
+
+}
+
+
+
+
+
+
+
+
+#Fprinttable > tbody > tr > td > div {
+
+position: relative;
+display: inline-flex;
+/* outline: 3px red solid; */
+
+    
+}
+
+#Fprinttable > tbody > tr > td > div > h3  {
+
+    font-size: 3rem;
+padding-right: 30px;
+
+
+}
+
+
+#Fprinttable > tbody > tr > td > div > i  {
+
+    background: linear-gradient(to left, #ee05ff 0%, #00fffb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 3rem;
+    line-height: 3rem !important;
+    padding-right: 20px;
+
+    
+
+}
+
+
+
+#Fprinttable > tbody > tr > td > p  {
+
+    font-size: 1.15rem;
+    width: 15vw;
+    padding-left: 50px;
+    padding-top: 15px;
+
+
+}
+
+
+
+
+
+
+
+
+

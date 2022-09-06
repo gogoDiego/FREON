@@ -53,7 +53,11 @@ text-decoration: none;
   display: none;
   visibility: none;
 }
-  
+ 
+
+/* Nav Stuff below */
+
+
 nav {
 
 height: 10vh;
@@ -152,16 +156,19 @@ padding-left: 20px;
 
 }
 
+/* Nav Stuff above */
 
 
 main {
 
 
-    position: relative;
-    display: flex;
-    margin-left: 5vw;
-    width: 100vw;
-    height: 90vh;
+  position: relative;
+  display: flex;
+  margin-left: 5vw;
+  width: 100vw;
+  height: 90vh;
+  min-height: 90vh;
+  min-width: 100vw;
 
 }
 
@@ -369,44 +376,5 @@ padding: 20px;
 
 }
 
-#hacker {
-
-  outline: solid 3px var(--accentcolor);
-height: fit-content;
-width: fit-content;
-}
 
 
-#Piracyproblem{
-
-  padding-top: 60vh;
-  font-family: Inter, sans-serif;
-  font-size: 8em;
-  font-weight: bold;
-
-  text-transform: capitalize;
-  font-style: normal;
-  text-decoration: none;
-  line-height: 2em;
-  letter-spacing: -3.2px;
-
-
-  background: #2200FF;
-  background: -webkit-linear-gradient(to bottom, #2200FF 0%, #F700FF 100%);
-  background: -moz-linear-gradient(to bottom, #2200FF 0%, #F700FF 100%);
-  background: linear-gradient(to bottom, #2200FF 0%, #F700FF 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-}
-
-
-
-#piracypage {
-
-display: block;
-width: 90vw;
-min-height: 90vh;
-outline: 3px blue solid;
-
-}
