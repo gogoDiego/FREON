@@ -170,6 +170,19 @@ nav > span > ul > li > a > h3, nav > span > ul > li > h3{
 /* Nav stuff above */
 
 
+
+hr { 
+
+background: linear-gradient(to left, #ee05ff 0%, #00fffb 100%);
+border-radius: 20px;
+    height: 5px;
+    width: 90vw;
+    position: relative;
+    left: 5vw;
+
+
+}
+
 .page{
 
 width: 100vw;
@@ -177,6 +190,28 @@ height:500vh;
     
 
 }
+
+
+
+
+
+#pproblem{
+position: relative;
+display: block;
+
+width: 90vw;
+height: 100vh;
+left: 5vw;
+
+outline: solid 3px red;
+
+
+}
+
+
+
+
+
 
 .backgroundpt1 {
 
@@ -222,7 +257,6 @@ color: white;
     min-height: 90vh;
     left: 10vw;
     color: white;
-    outline: 6px solid blue;
 
 }
 
@@ -297,7 +331,7 @@ text-indent: 40px;
 
 position: relative;
 display: flex;
-outline: 3px green solid;
+
 padding: 25px;
 
 width: 40vw;
@@ -315,7 +349,6 @@ width: 40vw;
 
 position: relative;
 display: inline-flex;
-/* outline: 3px red solid; */
 
     
 }
@@ -358,8 +391,64 @@ padding-right: 30px;
 
 
 
+#tryfreondiv {
+
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
 
 
 
 
+
+.trydemo {
+
+position: relative;
+display: flex;
+width: 50vw;
+
+justify-content: center;
+
+
+height: 100px;
+line-height: 100px;
+color: #fff;
+font-size: 4rem;
+font-weight: bolder;
+font-family: Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+text-transform: uppercase;
+text-decoration: none;
+box-sizing: border-box;
+
+background: linear-gradient( to right , #ad3bff, #03ccf4);
+background-size: 400%;
+border-radius: 30px;
+animation: animatee 16s linear infinite;
+
+}
+
+
+.trydemo {
+ 
+  }
+
+
+@keyframes animatee {
+0% {
+    background-position: 0%;
+}
+100% {
+    background-position: 400%;
+}
+}
+
+
+
+.trydemo:hover:before {
+filter: blur(20px);
+opacity: 1;
+animation: animate 8s linear infinite;
+}
 
