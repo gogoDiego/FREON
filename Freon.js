@@ -1,5 +1,24 @@
 //Nav Bar Logic
 
+
+const logoHead = document.getElementById("logohead");
+
+logoHead.onclick = function() {
+
+    console.log("testing 5")
+window.open("/index.html", "_self");
+
+
+};
+
+
+
+
+
+
+
+
+
 const menuIcon = document.getElementById("navIcon");
 const navlist = document.getElementsByTagName("span")[0]
 

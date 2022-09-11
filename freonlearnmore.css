@@ -171,17 +171,7 @@ nav > span > ul > li > a > h3, nav > span > ul > li > h3{
 
 
 
-hr { 
 
-background: linear-gradient(to left, #ee05ff 0%, #00fffb 100%);
-border-radius: 20px;
-    height: 5px;
-    width: 90vw;
-    position: relative;
-    left: 5vw;
-
-
-}
 
 .page{
 
@@ -200,13 +190,264 @@ position: relative;
 display: block;
 
 width: 90vw;
-height: 100vh;
+min-height: fit-content;
 left: 5vw;
 
 outline: solid 3px red;
 
 
 }
+
+
+#pproblem > p {
+
+position: relative;
+display: block;
+width: 800px;
+
+left: 150px;
+
+font-size: 1.5rem;
+text-indent: 50px;
+margin-top: 50px;
+
+
+
+}
+
+
+
+
+
+
+/* Graph below */
+
+#lost {
+
+   position: relative;
+   display: inline;
+
+}
+
+#lost > h2 {
+
+    position: relative;
+    top: 150px;
+    font-size: 6rem;
+    margin-top: 170px;
+    margin-left: 150px;
+    background: linear-gradient(to top, #CF0000 0%, #C917CF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+#bargraphdiv {
+
+    position: relative;
+    left: 150px;
+}
+  
+
+#lost > ul {
+    list-style: none;
+
+
+}
+
+#lost > ul > li {
+
+position: relative;
+display: block;
+font-size: 1.5rem;
+line-height: 35px;
+top: 175px;
+padding-top: 30px;
+
+
+
+}
+
+  
+  .bar-graph-horizontal > div {
+display: block;
+    margin-bottom: 8px;
+    width: 100%;
+
+  
+  }
+  
+
+  
+  .bar-graph-horizontal .bar {
+    border-radius: 3px;
+    height: 55px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width: 0;
+
+  }
+  
+  .bar-graph-one .bar::after {
+    -webkit-animation: fade-in-text 2.2s 0.1s forwards;
+    -moz-animation: fade-in-text 2.2s 0.1s forwards;
+    animation: fade-in-text 2.2s 0.1s forwards;
+    color: #fff;
+    content: attr(data-percentage);
+    font-weight: 900;
+
+    position: absolute;
+    right: 16px;
+    top: 17px;
+    
+  }
+  
+  .bar-graph-one .bar-one .bar {
+    background-color: #ff006a;
+    -webkit-animation: show-bar-one 1.2s 0.1s forwards;
+    -moz-animation: show-bar-one 1.2s 0.1s forwards;
+    animation: show-bar-one 2.2s 0.1s forwards;
+  }
+  
+  .bar-graph-one .bar-two .bar {
+    background-color: #ff0099;
+    -webkit-animation: show-bar-two 1.2s 0.2s forwards;
+    -moz-animation: show-bar-two 1.2s 0.2s forwards;
+    animation: show-bar-two 2.2s 0.2s forwards;
+  }
+  
+  .bar-graph-one .bar-three .bar {
+    background-color: #ff12d8;
+    -webkit-animation: show-bar-three 1.2s 0.3s forwards;
+    -moz-animation: show-bar-three 1.2s 0.3s forwards;
+    animation: show-bar-three 2.2s 0.3s forwards;
+  }
+  
+
+  
+  /* Bar Graph Horizontal Animations */
+  @-webkit-keyframes show-bar-one {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 12.5%;
+    }
+  }
+  
+  @-webkit-keyframes show-bar-two {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 29.2%;
+    }
+  }
+  
+  @-webkit-keyframes show-bar-three {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 71%;
+    }
+  }
+  
+
+  
+  @-webkit-keyframes fade-in-text {
+
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+  #piracyinfo {
+
+    display: inline-flex;
+    width: 800px;
+    padding-top: 50px;
+    
+
+}
+
+.fa-book-skull {
+
+background: linear-gradient(to top, #CF00C1 0%, #CF1512 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+padding-top: 5px;
+
+display: inherit;
+font-size: 6rem;
+
+
+}
+
+#piracyinfo > p {
+
+
+padding-left: 60px;
+font-size: 1.5rem;
+color: white;
+text-indent: 25px;
+
+}
+  
+
+
+
+
+/* Graph Above */
+
+
+
+
+
+
+
+#morelost {
+
+
+  position: relative;
+  display: block;
+  
+  width: 90vw;
+ height: 100vh;
+  left: 5vw;
+  
+  outline: solid 3px red;
+
+
+
+}
+
+
+#morelost > h2 {
+
+  top: 75px;
+  position: relative;
+  font-size: 6rem;
+  margin-left: 150px;
+  background: linear-gradient(to top, #CF0000 0%, #C917CF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+
+}
+
+
+
+
+
+
+
 
 
 
@@ -451,4 +692,39 @@ filter: blur(20px);
 opacity: 1;
 animation: animate 8s linear infinite;
 }
+
+
+
+hr { 
+
+    background: linear-gradient(to left, #ee05ff 0%, #00fffb 100%);
+    border-radius: 20px;
+        height: 5px;
+        width: 90vw;
+        position: relative;
+        left: 5vw;
+    
+    
+    }
+
+
+
+section > div > span {
+  
+    position: relative;
+    top: 20px;
+    padding-left:20px;
+   
+    
+  }
+  
+  
+
+
+
+
+
+
+
+
 
